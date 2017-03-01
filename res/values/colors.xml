@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color_white">#FFFFFF</color> 
+    <color name="background_color_orange">#FFA500</color>
+    <color name="background_color_red">#FF0000</color>
+    <color name="background_color_green">#00FF00</color>
+    <color name="background_color_blue">#6495ED</color>
+    <color name="background_color_black">#000000</color>
+    
+    <color name="text_color_white">#FFFFFF</color> 
+    <color name="text_color_orange">#FFA500</color>
+    <color name="text_color_red">#FF0000</color>
+    <color name="text_color_green">#00FF00</color>
+    <color name="text_color_blue">#6495ED</color>
+    <color name="text_color_black">#000000</color>
+    
+    
+</resources>

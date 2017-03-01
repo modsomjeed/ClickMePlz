@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kwang.clickmeplz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kwang.clickmeplz.SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kwang.clickmeplz.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.kwang.clickmeplz.GetResultActivity"
+            android:label="@string/title_activity_get_result" >
+        </activity>
+        <activity
+            android:name="com.kwang.clickmeplz.StateSaverActivity"
+            android:label="@string/title_activity_state_saver" >
+        </activity>
+        <activity
+            android:name="com.kwang.clickmeplz.SimpleButtonActivity"
+            android:label="@string/title_activity_simple_button" >
+        </activity>
+        <activity
+            android:name="com.kwang.clickmeplz.ColorsActivity"
+            android:label="@string/title_activity_colors" >
+        </activity>
+        <activity
+            android:name="com.kwang.clickmeplz.LearningActivity"
+            android:label="@string/title_activity_learning" >
+        </activity>
+    </application>
+
+</manifest>
